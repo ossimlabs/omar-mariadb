@@ -7,7 +7,7 @@ buildscript {
 
     dockerStatementsOverride = {
        [
-          "FROM mariadb:10.2.12"
+          "FROM mariadb:10.4.0"
        ]
      }
     if(System.env.OMAR_COMMON_PROPERTIES)
